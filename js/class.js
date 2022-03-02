@@ -8,4 +8,8 @@ $(document).ready(() => {
   $("#toggle-class").click(() => {
     $("#div").toggleClass("green-screen");
   });
+  $("#btn1").click(() => {
+    $("#btn1").toggleClass("btn-primary");
+    $("#btn1").toggleClass("btn-success");
+  });
 });
