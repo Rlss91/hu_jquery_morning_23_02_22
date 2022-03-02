@@ -11,7 +11,8 @@ $(document).ready(() => {
     let val = $("#txt").val();
     //filter
     let newPetsArr = petsArr.filter((item) => {
-      return item.startsWith(val);
+      //   return item.startsWith(val);
+      return item.includes(val);
     });
     let listOfAnimals = $("#list-of-animals");
     //clear the list from last search
